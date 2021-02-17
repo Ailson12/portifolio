@@ -561,7 +561,7 @@ h6 {
 -----------------------------------------*/
 
 .home {
-    background: url('../images/home.jpg') center center no-repeat fixed;
+    background: url('../images/background_home.jpg') center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

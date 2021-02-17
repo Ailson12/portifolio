@@ -46,7 +46,7 @@ $(function () {
     
     /*========== Typed  ==========*/
     $(".home p span").typed({
-        strings: ["Designer.", "Developer."],
+        strings: ["Designer gráfico.", "Desenvolvedor Web."],
         cursorChar: "",
         typeSpeed: 90,
         loop: true,
@@ -144,19 +144,13 @@ $(function () {
             }
         });
     }
-    
-    /*========== Facts Counter  ==========*/
-    if (!factsCheck && $(this).scrollTop() >= $(".facts").offset().top - 400) {
-        $(".facts .fact-number").countTo();
-        factsCheck = true;
-    }
-    
-    win.on("scroll", function () {
-        if (!factsCheck && $(this).scrollTop() >= $(".facts").offset().top - 400) {
-            $(".facts .fact-number").countTo();
-            factsCheck = true;
-        }
-    });
+
+    // win.on("scroll", function () {
+    //     if (!factsCheck && $(this).scrollTop() >= $(".facts").offset().top - 400) {
+    //         $(".facts .fact-number").countTo();
+    //         factsCheck = true;
+    //     }
+    // });
     
     /*========== Owl Carousel Js Testimonial  ==========*/
     $(".testimonials .owl-carousel").owlCarousel({
