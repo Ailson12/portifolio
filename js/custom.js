@@ -1,5 +1,3 @@
-/*global $, window, WOW*/
-
 $(function () {
     
     "use strict";
