@@ -1,13 +1,3 @@
-/**
-* Filterizr is a jQuery plugin that sorts, shuffles and applies stunning filters over
-* responsive galleries using CSS3 transitions and custom CSS effects.
-*
-* @author Yiotis Kaltsikis
-* @see {@link http://yiotis.net/filterizr}
-* @version 1.2.5
-* @license MIT License
-*/
-
 (function(global, $) {
 
     'use strict';
