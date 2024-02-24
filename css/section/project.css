@@ -1,0 +1,41 @@
+#project {
+  background-color: var(--color-5);
+}
+
+#project .project-container {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+#project .project-card {
+  border-radius: 12px;
+  background-color: var(--color-2);
+  padding: 1rem 1.25rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 80px 1fr;
+}
+
+#project .project-card h2 {
+  font-family: 'Nunito Sans', 'Fira Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+#project .project-card p {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 900px) {
+  #project .project-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+   #project .project-card {
+    grid-template-columns: 1fr;
+   }
+}
