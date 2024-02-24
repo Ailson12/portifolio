@@ -1,6 +1,7 @@
 body,
 h1,
 h2,
+h3,
 p,
 ul {
   margin: 0;
@@ -28,6 +29,11 @@ body {
   background-color: var(--color-2);
 }
 
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
 .container,
 .container-section {
   max-width: 1200px;
@@ -36,7 +42,7 @@ body {
 }
 
 .container-section {
-  padding: 2.5rem 1.875rem;
+  padding: 3.75rem 1.875rem;
 }
 
 .section-title {
@@ -47,7 +53,8 @@ body {
   position: relative;
   width: max-content;
   margin: 0 auto;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.75rem;
+  line-height: 0.82;
 }
 
 .section-title::after {
@@ -60,4 +67,14 @@ body {
   right: -10px;
   border-radius: 50%;
   background-color: var(--color-7);
+}
+
+@media (max-width: 800px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .container-section {
+    padding: 2.5rem 1rem;
+  }
 }

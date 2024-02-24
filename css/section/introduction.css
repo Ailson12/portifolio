@@ -57,9 +57,8 @@
   justify-content: center;
   padding: 0.5rem 1rem;
   background-color: transparent;
-  font-family: inherit;
-  font-size: 1rem;
   letter-spacing: 1.3px;
+  font-size: 1rem;
 }
 
 #introduction .introduction-content #img-introduction {
