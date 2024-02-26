@@ -59,6 +59,7 @@
   background-color: transparent;
   letter-spacing: 1.3px;
   font-size: 1rem;
+  width: max-content;
 }
 
 #introduction .introduction-content #img-introduction {
