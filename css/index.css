@@ -2,6 +2,7 @@
 @import './utils/global.css';
 @import './section/introduction.css';
 @import './section/project.css';
+@import './section/detail-project.css';
 @import './section/experience.css';
 @import './section/contact.css';
 @import './section/footer.css';

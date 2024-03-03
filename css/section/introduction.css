@@ -36,9 +36,9 @@
 #introduction .introduction-content h1::after {
   content: '';
   display: flex;
-  width: 100px;
+  width: 90px;
   height: 2px;
-  background-color: var(--color-7);
+  background: linear-gradient(45deg, var(--color-8), var(--color-7));
 }
 
 #introduction .introduction-content > div > p {

@@ -13,8 +13,14 @@
   background-color: var(--color-2);
   padding: 1rem 1.25rem;
   display: grid;
+  cursor: pointer;
   align-items: center;
+  transition: 0.3s;
   grid-template-columns: 80px 1fr;
+}
+
+#project .project-card:hover {
+  transform: scale(0.98);
 }
 
 #project .project-card h2 {

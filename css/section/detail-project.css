@@ -1,0 +1,70 @@
+#detail-project[open] {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: inherit;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.detail-project-content {
+  padding: 1.875rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 780px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
+  background: var(--color-2);
+}
+
+.detail-project-content header {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+
+.detail-project-content h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  flex: 1;
+}
+
+.detail-project-content #close-details-project {
+  background-color: rgba(193, 26, 26, 0.87);
+  border: 0;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+
+.detail-project-content #close-details-project::after,
+.detail-project-content #close-details-project::before {
+  content: '';
+  width: 2px;
+  height: 23px;
+  border-radius: 1px;
+  display: flex;
+  position: absolute;
+  background-color: var(--color-1);
+}
+
+.detail-project-content #close-details-project::after {
+  transform: rotate(40deg);
+}
+
+.detail-project-content #close-details-project::before {
+  transform: rotate(-40deg);
+}
