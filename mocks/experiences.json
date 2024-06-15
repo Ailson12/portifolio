@@ -1,0 +1,60 @@
+[
+  {
+    "company": "flexpeak",
+    "positions": [
+      {
+        "id": "jr-01",
+        "duties": [
+          "Atividades: Implementação de novas funcionalidades e manutenção em sistemas voltados para o ramo hospitalar.",
+          "Linguagens e seus respectivos frameworks: PHP com Laravel e Yii2; Javascript com Vuejs e bibliotecas, tais como: Jquery, Highcharts, DataTablejs, Select2, etc.",
+          "Banco de dados: PostgreSQL e MySQL.",
+          "Padrões de Desenvolvimento: Programação orientada a objeto, Programação funcional, Git Workflow e Scrum."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "creathus",
+    "positions": [
+      {
+        "id": "jr-01",
+        "duties": [
+          "Banco de dados: PostgreSQL.",
+          "Trabalhando em projetos P&D e comerciais.",
+          "Padrões de Desenvolvimento: Programação orientada a objeto e Git Workflow.",
+          "Atividades: Implementação de novas funcionalidades e manutenção nos sistemas existentes.",
+          "Linguagens e seus respectivos frameworks: Java com Spring Boot; Javascript com Reactjs e Vuejs."
+        ]
+      },
+      {
+        "id": "jr-03",
+        "duties": [
+          "Banco de dados: PostgreSQL.",
+          "Trabalhando em projetos P&D e comerciais.",
+          "Padrões de Desenvolvimento: Programação orientada a objeto e Git Workflow.",
+          "Atividades: Implementação de novas funcionalidades e manutenção nos sistemas existentes.",
+          "Linguagens e seus respectivos frameworks: Java com Spring Boot; Javascript com Reactjs e Vuejs."
+        ]
+      },
+      {
+        "id": "pl-01",
+        "duties": [
+          "Todas responsabilidades de JR III",
+          "Auxiliando a qualidade através da revisão de código",
+          "Banco de dados: SQL Server e PostgreSQL",
+          "Auxiliando desenvolvedores juniores"
+        ]
+      },
+      {
+        "id": "pl-02",
+        "duties": [
+          "Todas responsabilidades de PL I",
+          "Monitoramento do projeto em homologação e produção",
+          "Comunicação de dispositivos via http, mqtt e modbus",
+          "Auxiliando a qualidade através da revisão de código",
+          "Manipulação de tabelas com muitos registros"
+        ]
+      }
+    ]
+  }
+]

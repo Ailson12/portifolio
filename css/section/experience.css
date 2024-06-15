@@ -65,6 +65,28 @@
   background-color: transparent;
 }
 
+.experience-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.experience-details li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.experience-details li::before {
+  content: '';
+  margin-top: 6px;
+  display: flex;
+  height: 0.5rem;
+  min-width: 0.5rem;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--color-8), var(--color-7));
+}
+
 @media (max-width: 1150px) {
   .experience-container {
     grid-template-columns: 1fr;

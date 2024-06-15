@@ -1,4 +1,4 @@
-#detail-project[open] {
+#modal[open] {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -14,7 +14,11 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.detail-project-content {
+#modal.size-medium .modal-content  {
+  max-width: 600px;
+}
+
+.modal-content {
   padding: 1.875rem;
   border-radius: 0.5rem;
   width: 100%;
@@ -23,21 +27,22 @@
   background: var(--color-2);
 }
 
-.detail-project-content header {
+.modal-content header {
   display: flex;
   gap: 0.5rem;
+  margin-bottom: 1rem;
   flex-wrap: wrap;
 }
 
 
-.detail-project-content h1 {
+.modal-content h1 {
   text-align: center;
   font-size: 32px;
   font-weight: 400;
   flex: 1;
 }
 
-.detail-project-content #close-details-project {
+.modal-content #close-details-project {
   background-color: rgba(193, 26, 26, 0.87);
   border: 0;
   border-radius: 50%;
@@ -50,8 +55,8 @@
 }
 
 
-.detail-project-content #close-details-project::after,
-.detail-project-content #close-details-project::before {
+.modal-content #close-details-project::after,
+.modal-content #close-details-project::before {
   content: '';
   width: 2px;
   height: 23px;
@@ -61,10 +66,10 @@
   background-color: var(--color-1);
 }
 
-.detail-project-content #close-details-project::after {
+.modal-content #close-details-project::after {
   transform: rotate(40deg);
 }
 
-.detail-project-content #close-details-project::before {
+.modal-content #close-details-project::before {
   transform: rotate(-40deg);
 }
