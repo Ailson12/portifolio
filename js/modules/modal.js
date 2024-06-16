@@ -21,6 +21,8 @@ export class Modal {
   view(params = {}) {
     this.title.innerText = params.title ?? "";
     this.mainContent.innerHTML = params.mainContent ?? "";
+
+    this.onOpen()
   }
 
   addEventClose() {

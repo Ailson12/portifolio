@@ -1,7 +1,8 @@
-import { Modal } from "../modal.js";
+import { Modal } from "./modal.js";
 
 export class ExperienceDetails {
   constructor() {
+    this.lastExperience = document.querySelector(".job-container .job-card p");
     this.modal = new Modal({
       size: "size-medium",
     });
@@ -27,15 +28,12 @@ export class ExperienceDetails {
     }
   }
 
-  addEventOpen() {
+  addEventDetails() {
     const elements = document.querySelectorAll("#experience .job-card button");
     elements.forEach((element) => {
       element.addEventListener("click", async () => {
-        const { dataset } = element;
-
         const position = await this.fetchPosition({
-          company: dataset.company,
-          position: dataset.position,
+          ...element.dataset,
         });
 
         this.modal.view({
@@ -43,17 +41,58 @@ export class ExperienceDetails {
               ${position.duties.map((dutie) => `<li>${dutie}</li>`).join(" ")}
             </ul>`,
         });
-
-        this.modal.onOpen();
       });
     });
   }
 
-  addEvents() {
-    this.addEventOpen();
+  getMetaDataDate(date) {
+    const year = date.getFullYear();
+    const month = date.getMonth();
+
+    return {
+      year,
+      month,
+    };
+  }
+
+  getTotalMonths(params) {
+    const endDate = this.getMetaDataDate(params.endDate);
+    const startDate = this.getMetaDataDate(params.startDate);
+
+    const totalInMonth = (endDate.year - startDate.year) * 12;
+    return totalInMonth - startDate.month + endDate.month + 1;
+  }
+
+  getFullLabel(totalMonths) {
+    const years = Math.floor(totalMonths / 12);
+    const months = totalMonths % 12;
+
+    let result = [];
+
+    if (years) result.push(`${years} anos`);
+    if (months) result.push(`${months} meses`);
+
+    return result.join(" e ");
+  }
+
+  calculateLastExperience() {
+    if (this.lastExperience) {
+      const startDate = new Date(2022, 6);
+      const totalMonths = this.getTotalMonths({
+        startDate,
+        endDate: new Date(),
+      });
+
+      const year = startDate.getFullYear();
+      const month = (startDate.getMonth() + 1).toString().padStart(2, "0");
+      this.lastExperience.innerText = `${month}/${year} - o momento · ${this.getFullLabel(
+        totalMonths
+      )}`;
+    }
   }
 
   init() {
-    this.addEvents();
+    this.addEventDetails();
+    this.calculateLastExperience();
   }
 }

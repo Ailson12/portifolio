@@ -1,12 +1,8 @@
 import { ExperienceDetails } from './modules/experience.js'
+import { Footer } from './modules/footer.js'
 
 const experience = new ExperienceDetails()
 experience.init()
 
-const findElement = (selector) => document.querySelector(selector)
-
-const currentYear = findElement('#current-year')
-
-if (currentYear) {
-  currentYear.innerText = new Date().getFullYear()
-}
+const footer = new Footer()
+footer.init()
