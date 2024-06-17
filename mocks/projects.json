@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Drogaria Tupana",
+    "id": "drogaria-tupana",
+    "helpfulLinks": [
+      {
+        "legend": "Repositório",
+        "link": "#"
+      },
+      {
+        "legend": "Projeto",
+        "link": "#"
+      }
+    ],
+    "description": "Este projeto foi construído para atender a necessidade de exibir os produtos disponíveis da drogaria tupana, produtos esses que são gerenciados por seus colaboradores autorizados...",
+    "technologies": ["Vue", "Vue Test Utils", "Flexbox", "ECMAScript", "Json Server"]
+  }
+]
