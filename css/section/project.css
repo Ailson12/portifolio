@@ -69,6 +69,10 @@
   margin-top: 1rem;
 }
 
+.project-modal-description>p+p {
+  line-height: 1.4;
+}
+
 .project-modal-container>div>p:first-child {
   font-size: 20px;
   margin-bottom: 1rem;

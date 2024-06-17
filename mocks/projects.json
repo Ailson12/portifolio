@@ -5,14 +5,58 @@
     "helpfulLinks": [
       {
         "legend": "Repositório",
-        "link": "#"
+        "link": "https://github.com/Ailson12/drogaria-tupana"
+      }
+    ],
+    "description": "Este projeto foi construído para atender a necessidade de exibir os produtos disponíveis da drogaria tupana, produtos esses que são gerenciados por seus colaboradores autorizados. Os usuários não autenticados devem ser capazes de: Veja o layout ideal para o site, dependendo do tamanho da tela do dispositivo, Visualizar uma vitrine dos produtos com seu título, imagem e preço, Visualizar a tela de login. Os usuários autenticados devem ser capazes de: Deslogar do sistema. Adicionar/Editar imagem do produto. Realizar as ações de Cadastrar, Listar, Atualizar e Deletar produto. veja o layout ideal para o site dependendo do tamanho da tela do dispositivo. Realizar as ações de Cadastrar, Listar, Atualizar e Deletar categoria de produto.",
+    "technologies": ["Vue", "Vue Test Utils", "Flexbox", "ECMAScript", "Json Server"]
+  },
+  {
+    "title": "Shortly",
+    "id": "shortly",
+    "helpfulLinks": [
+      {
+        "legend": "Repositório",
+        "link": "https://github.com/Ailson12/url-shortening"
       },
       {
         "legend": "Projeto",
-        "link": "#"
+        "link": "https://ailson12.github.io/url-shortening"
       }
     ],
-    "description": "Este projeto foi construído para atender a necessidade de exibir os produtos disponíveis da drogaria tupana, produtos esses que são gerenciados por seus colaboradores autorizados...",
-    "technologies": ["Vue", "Vue Test Utils", "Flexbox", "ECMAScript", "Json Server"]
+    "description": "Os usuários devem ser capazes de: Veja o layout ideal para o site, dependendo do tamanho da tela do dispositivo. Encurte qualquer URL válido. Veja uma lista de seus links encurtados, mesmo depois de atualizar o navegador. Copie o link encurtado para a área de transferência com um único clique",
+    "technologies": ["HTML5", "Flexbox", "Grade CSS", "ECMAScript", "OOP"]
+  },
+  {
+    "title": "REST Países",
+    "id": "rest-countries",
+    "helpfulLinks": [
+      {
+        "legend": "Repositório",
+        "link": "https://github.com/Ailson12/rest-countries"
+      },
+      {
+        "legend": "Projeto",
+        "link": "https://rest-countries-rosy-six.vercel.app"
+      }
+    ],
+    "description": "O sistema permite aos usuários explorar uma vasta gama de países através de uma página inicial que exibe uma lista completa dos países disponíveis na API. Eles podem navegar intuitivamente ou procurar países específicos usando um campo de pesquisa.",
+    "technologies": ["Flexbox", "Vite", "React", "Vitest", "Styled Components", "React Testing Library"]
+  },
+  {
+    "title": "Editor JS",
+    "id": "javascript-editor",
+    "helpfulLinks": [
+      {
+        "legend": "Repositório",
+        "link": "https://github.com/Ailson12/editor-js"
+      },
+      {
+        "legend": "Projeto",
+        "link": "https://ailson12.github.io/editor-js"
+      }
+    ],
+    "description": "Crie botões sob medida com o Editor JavaScript, uma solução dinâmica para designers e desenvolvedores. Com controle total sobre altura, largura, cores e fontes, etc...",
+    "technologies": ["HTML5", "Flexbox", "ECMAScript"]
   }
 ]
