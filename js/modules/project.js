@@ -11,7 +11,7 @@ export class Project {
 
   async fetchProject(id) {
     try {
-      const response = await fetch("../../mocks/projects.json");
+      const response = await fetch("./mocks/projects.json");
       const data = await response.json();
 
       const project = data.find((row) => row.id === id);
@@ -45,6 +45,5 @@ export class Project {
 
   init() {
     this.addEvent();
-    console.log(`projetos `, this.projects);
   }
 }

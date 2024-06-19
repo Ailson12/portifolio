@@ -4,7 +4,7 @@
   "description": "Portfólio pessoal para expor minhas experiências e competências",
   "main": "index.js",
   "scripts": {
-    "css:minify": "cleancss --output ./css/styles.min.css ./css/styles.css --with-rebase"
+    "css:minify": "cleancss -O 3 --output ./css/styles.min.css ./css/styles.css --with-rebase --debug"
   },
   "keywords": [],
   "author": "Ailson Feitosa",
