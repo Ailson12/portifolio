@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -19,6 +20,9 @@
 }
 
 .modal-content {
+  max-height: 95vh;
+  box-sizing: border-box;
+  overflow: auto;
   padding: 1.875rem;
   border-radius: 0.5rem;
   width: 100%;
