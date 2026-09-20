@@ -27,32 +27,28 @@
         ]
       },
       {
-        "id": "jr-03",
-        "duties": [
-          "Banco de dados: PostgreSQL.",
-          "Trabalhando em projetos P&D e comerciais.",
-          "Padrões de Desenvolvimento: Programação orientada a objeto e Git Workflow.",
-          "Atividades: Implementação de novas funcionalidades e manutenção nos sistemas existentes.",
-          "Linguagens e seus respectivos frameworks: Java com Spring Boot; Javascript com Reactjs e Vuejs."
-        ]
-      },
-      {
         "id": "pl-01",
         "duties": [
-          "Todas responsabilidades de JR III",
+          "Auxiliando desenvolvedores juniores",
           "Auxiliando a qualidade através da revisão de código",
           "Banco de dados: SQL Server e PostgreSQL",
-          "Auxiliando desenvolvedores juniores"
-        ]
-      },
-      {
-        "id": "pl-02",
-        "duties": [
-          "Todas responsabilidades de PL I",
           "Monitoramento do projeto em homologação e produção",
           "Comunicação de dispositivos via http, mqtt e modbus",
-          "Auxiliando a qualidade através da revisão de código",
           "Manipulação de tabelas com muitos registros"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "fitec",
+    "positions": [
+      {
+        "id": "sr",
+        "duties": [
+          "Atividades: Desenvolvimento e manutenção de aplicações web para a Acer, incluindo portais internos, plataformas B2B, gestão de serviços, vendas, logística, garantias e processos financeiros. Implementação de novas funcionalidades, dashboards, integrações com APIs e melhorias de desempenho e usabilidade.",
+          "Linguagens e seus respectivos frameworks: TypeScript e JavaScript com React, Vite, React Router, TanStack Query, Zustand, Ant Design, Styled Components, Axios, Highcharts e Recharts.",
+          "Arquitetura e infraestrutura: Arquitetura Vertical Slice orientada a domínios, gerenciamento de estado, componentização de interfaces, feature flags e deploy utilizando AWS CloudFormation",
+          "Padrões de desenvolvimento: Programação orientada a componentes, princípios de Clean Code, Git Feature Branch Workflow, Conventional Commits, ESLint, Prettier e metodologias ágeis."
         ]
       }
     ]

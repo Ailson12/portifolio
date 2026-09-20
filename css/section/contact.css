@@ -1,7 +1,3 @@
-#contact {
-  box-shadow: 0 -1px 0 0 var(--color-4);
-}
-
 .contact-container {
   display: grid;
   align-items: center;
