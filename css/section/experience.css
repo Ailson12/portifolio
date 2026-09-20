@@ -6,7 +6,7 @@
   display: grid;
   justify-content: space-around;
   align-items: flex-start;
-  grid-template-columns: repeat(3, minmax(200px, 490px));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
 }
 
@@ -92,11 +92,6 @@
 }
 
 @media (max-width: 1150px) {
-  .experience-container {
-    grid-template-columns: 1fr;
-    gap: 5rem;
-  }
-
   .experience-card .job-container {
     flex-direction: row;
   }
@@ -107,20 +102,5 @@
 
   .experience-card .company-logo {
     left: 0;
-  }
-}
-
-@media (max-width: 600px) {
-  #experience > h1 {
-    margin-bottom: 8.5rem;
-  }
-
-  .experience-container {
-    gap: 8rem;
-  }
-
-  .experience-card .company-logo {
-    top: -6rem;
-    left: calc(50% - 60px);
   }
 }
