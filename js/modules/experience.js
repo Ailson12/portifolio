@@ -77,7 +77,8 @@ export class ExperienceDetails {
 
   calculateLastExperience() {
     if (this.lastExperience) {
-      const startDate = new Date(2022, 6);
+      const startDateDataset = this.lastExperience.dataset.startDate?.split("/")?.map(Number);
+      const startDate = new Date(startDateDataset[1], startDateDataset[0] - 1);
       const totalMonths = this.getTotalMonths({
         startDate,
         endDate: new Date(),
@@ -85,7 +86,7 @@ export class ExperienceDetails {
 
       const year = startDate.getFullYear();
       const month = (startDate.getMonth() + 1).toString().padStart(2, "0");
-      this.lastExperience.innerText = `${month}/${year} - o momento · ${this.getFullLabel(
+      this.lastExperience.innerText = `${month}/${year} - atual · ${this.getFullLabel(
         totalMonths
       )}`;
     }

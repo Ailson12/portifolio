@@ -1,36 +1,40 @@
 #experience>h1 {
-  margin-bottom: 6.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .experience-container {
   display: grid;
   justify-content: space-around;
   align-items: flex-start;
-  grid-template-columns: repeat(2, minmax(200px, 490px));
+  grid-template-columns: repeat(3, minmax(200px, 490px));
   gap: 2rem;
 }
 
 .experience-card {
   position: relative;
   border-radius: 3px;
-  padding: 1.875rem;
+  padding: 1.25rem;
   text-align: center;
   box-shadow: 0 0 10px 4px #1414144d;
   background-color: var(--color-4);
 }
 
-.experience-card .company-logo {
-  position: absolute;
-  border-radius: 50%;
-  left: -2rem;
-  top: -3rem;
-  box-shadow: 0 0 0 2px var(--color-7);
+.experience-card-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.experience-card>h2 {
+.experience-card .company-logo {
+  border-radius: 4px;
+  /* box-shadow: 0 0 0 2px var(--color-7); */
+}
+
+.experience-card h2 {
   font-size: 1.375rem;
   font-weight: 700;
-  margin-bottom: 1.875rem;
+  /* margin-bottom: 1.875rem; */
   font-family: 'Nunito Sans', sans-serif;
 }
 
