@@ -78,6 +78,8 @@ export class ExperienceDetails {
   calculateLastExperience() {
     if (this.lastExperience) {
       const startDateDataset = this.lastExperience.dataset.startDate?.split("/")?.map(Number);
+      if (!startDateDataset) return;
+
       const startDate = new Date(startDateDataset[1], startDateDataset[0] - 1);
       const totalMonths = this.getTotalMonths({
         startDate,
